@@ -1,27 +1,32 @@
 {
   "expo": {
-    "name": "DelRioFM_Fresh",
+    "name": "Del Rio FM San Francisco",
     "slug": "DelRioFM_Fresh",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "icon": "./assets/favicon.png",
+    "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#0f172a"
     },
     "ios": {
+      "bundleIdentifier": "delriofm.sanfrancisco",
       "supportsTablet": true
     },
     "android": {
+      "package": "delriofm.sanfrancisco",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/favicon.png",
+        "backgroundColor": "#252d39"
       },
-      "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.DelRioFM_Fresh"
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE",
+        "WAKE_LOCK"
+      ],
+      "usesCleartextTraffic": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
